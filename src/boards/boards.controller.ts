@@ -8,8 +8,8 @@ export class BoardsController {
     this.boardService = boardsService;
   }
 
-  // @Get()
-  // getAllBoards() {
-  //   return this.boardService.getAllBoards();
-  // }
+  @Get()
+  getAllBoards() {
+    return this.boardService.getAllBoards();
+  }
 }
